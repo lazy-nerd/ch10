@@ -245,7 +245,7 @@ async function main() {
 
 main()
     .catch(err => {
-        console.error("DB fixture REST API failed to start.");
+        console.error("DB fixture  REST API failed to start.");
         console.error(err && err.stack || err);
     });
 

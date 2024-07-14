@@ -15,7 +15,7 @@ if (!process.env.DBNAME) {
 }
 
 if (!process.env.RABBIT) {
-    throw new Error("Please specify the name of the RabbitMQ host using environment variable RABBIT");
+    throw new Error("Please specify the  name of the RabbitMQ host using environment variable RABBIT");
 }
 
 const PORT = process.env.PORT;
